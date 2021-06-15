@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(
+        180deg,
+        #000000 5%, 
+        #23272b 20%,
+        #001936 60%,
+        #2c2d30 95% 
+    );
+     
+
+}
+
+main{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: relative;
+}
+
+main > section img {
+    width: 200px;
+    height: 150px;
+    margin: 15px 0;
+
+}
+
+
+main > section:not(.pontuacao-container){
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: rgb(194, 36, 168);
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    border: 1px solid rgba(10, 9, 9, 0.788);
+    box-shadow: 0 8px 32px 0 rgba(5, 11, 102, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    
+}
